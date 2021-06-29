@@ -220,7 +220,7 @@ var ariaContainer = 'ds-container';
         }
 
         // For scroll of text, setting tabindex on FIRST p element - Nauman
-        this.dialogNode.getElementsByTagName("P").item(0).setAttribute("tabindex", "0");
+        //this.dialogNode.getElementsByTagName("P").item(0).setAttribute("tabindex", "0");
 
         this.lastFocus = document.activeElement;
     }; // end Dialog constructor
